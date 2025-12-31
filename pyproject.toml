@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "social-media-api"
+version = "0.1.0"
+description = "Social Media API using FastAPI (https://github.com/dotpep/social-media-api)"
+authors = ["dotpep <pepelnine@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = {extras = ["all"], version = "^0.109.2"}
+sqlalchemy = "^2.0.27"
+passlib = {extras = ["bcrypt"], version = "^1.7.4"}
+python-jose = {extras = ["cryptography"], version = "^3.3.0"}
+pydantic-settings = "^2.2.1"
+alembic = "^1.13.1"
+psycopg2-binary = "^2.9.9"
+gunicorn = "^21.2.0"
+psycopg2 = "^2.9.9"
+sqlalchemy-utils = "^0.41.1"
+testing-postgresql = "^1.3.0"
+
+
+[tool.poetry.group.dev.dependencies]
+autopep8 = "^2.0.4"
+pytest = "^8.0.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
