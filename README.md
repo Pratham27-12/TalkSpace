@@ -81,10 +81,6 @@ Locally:
 - Or just Docker
 
 ---
-
-1. Clone this repo by: `git clone "https://github.com/dotpep/social-media-api.git"`
-
----
 With Docker (Easy way to run)
 
 1. Install Docker
