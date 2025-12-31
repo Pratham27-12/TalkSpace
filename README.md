@@ -8,7 +8,7 @@ Demonstration of project in website here [https://dotpep.xyz] link and API docs 
 
 ---
 
-- Docker image: [https://hub.docker.com/repository/docker/dotpep/social-media-fastapi]
+- Docker image: [https://hub.docker.com/repository/docker/dotpep/talkspace]
 
 ## Demonstration
 
